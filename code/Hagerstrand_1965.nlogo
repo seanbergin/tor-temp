@@ -15,7 +15,7 @@ turtles-own [innovation-adopted? moore-neighborhood link-ref]
 
 to setup
   clear-all  
-  ifelse Model-Type = "isotropic Isotropic Model" [ setup-isotropic-model]
+  ifelse Model-Type = "Simple Isotropic Model" [ setup-isotropic-model]
   [ setup-anisotropic-model  ]
   reset-ticks
 end
@@ -523,7 +523,7 @@ CHOOSER
 Model-Type
 Model-Type
 "Simple Isotropic Model" "Anisotropic Model"
-1
+0
 
 SLIDER
 17
@@ -553,8 +553,8 @@ Anisotropic Model Variables
 TEXTBOX
 20
 635
-278
-715
+383
+678
 Since we are unable to find Hagerstrand's data on population per patch, the population is randomly distributed
 13
 0.0
