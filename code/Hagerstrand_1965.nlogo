@@ -1,6 +1,6 @@
 ;;:::::::::::::::::::::::::::::::::::::::  
 ;; Torsten Hägerstrand's Monte Carlo Approach to Diffusion
-;;
+;;    -extra test text
 ;; Model replicated by Sean Bergin (sean.m.bergin@gmail.com) in 2012
 ;;:::::::::::::::::::::::::::::::::::::::
 
